@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "10_folds_and_mean_row": true,
+    "all_cv_test_years_after_cutoff": true,
+    "fold_1_metrics_recomputed": true,
+    "fold_2_metrics_recomputed": true,
+    "fold_3_metrics_recomputed": true,
+    "fold_4_metrics_recomputed": true,
+    "fold_5_metrics_recomputed": true,
+    "fold_6_metrics_recomputed": true,
+    "fold_7_metrics_recomputed": true,
+    "fold_8_metrics_recomputed": true,
+    "fold_9_metrics_recomputed": true,
+    "fold_10_metrics_recomputed": true,
+    "mean_is_unweighted_arithmetic_mean": true,
+    "exact_future_columns": true,
+    "all_panels_28_years": true,
+    "future_year_range": true,
+    "unique_panel_year": true,
+    "finite_bounded_no_missing_future": true,
+    "future_metadata_matches_source": true,
+    "cleaned_targets_from_original_counts": true,
+    "observed_data_and_predictions_not_mixed": true,
+    "png_300dpi": true,
+    "png_5700px_square": true,
+    "word_contains_required_methods_metrics_uncertainty": true,
+    "report_metrics_match_manifest": true
+  },
+  "all_passed": true,
+  "word_render_review": "Microsoft Word read-only PDF export; 1 page, latest PNG visually inspected",
+  "png_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "png_dimensions": [
+    5700,
+    5700
+  ]
+}
