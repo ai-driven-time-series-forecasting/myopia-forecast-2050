@@ -1,0 +1,152 @@
+[
+  {
+    "fold": 1,
+    "outer_train_end": 2001,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.0067941654700612005,
+      0.007696191990096991,
+      0.011510841424014694
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 2,
+    "outer_train_end": 2003,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.01123072260485435,
+      0.014242548541735511,
+      0.02004418616728442
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 3,
+    "outer_train_end": 2005,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.012345521726279474,
+      0.014843415151971929,
+      0.019975022274753323
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 4,
+    "outer_train_end": 2007,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.021642532679127913,
+      0.022588313152746408,
+      0.024985380597427793
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 5,
+    "outer_train_end": 2010,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.01995275054382412,
+      0.019062046746074725,
+      0.019663268963448513
+    ],
+    "selected": 3.0
+  },
+  {
+    "fold": 6,
+    "outer_train_end": 2012,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.018912304907517375,
+      0.018406983281262227,
+      0.020425560887735433
+    ],
+    "selected": 3.0
+  },
+  {
+    "fold": 7,
+    "outer_train_end": 2014,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.012313458321157449,
+      0.012720467437343888,
+      0.01626223449332429
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 8,
+    "outer_train_end": 2016,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.0191431138456373,
+      0.020289540832005862,
+      0.021782113083765778
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 9,
+    "outer_train_end": 2018,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.022214652878222347,
+      0.023076431755346415,
+      0.023080477702665397
+    ],
+    "selected": 0.3
+  },
+  {
+    "fold": 10,
+    "outer_train_end": 2020,
+    "inner_candidate_lambdas": [
+      0.3,
+      3.0,
+      30.0
+    ],
+    "inner_mean_mse": [
+      0.023450135861069907,
+      0.02346328943751318,
+      0.023258970472432593
+    ],
+    "selected": 30.0
+  }
+]

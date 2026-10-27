@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+reproduced/
+.pytest_cache/
+.ipynb_checkpoints/
+~$*.docx
+Thumbs.db
+.DS_Store

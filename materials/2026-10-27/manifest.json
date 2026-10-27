@@ -1,0 +1,890 @@
+{
+  "collection_date": "2026-10-27",
+  "source_app": "微信",
+  "source_group": "AI驱动的预测组队",
+  "source_scope": "微信四套同学结果、已上传GitHub的Codex结果、原始预测要求及群内报告整合讨论稿。",
+  "raw_downloaded_attachment_count": 12,
+  "extracted_file_count": 21,
+  "payload_file_count": 63,
+  "all_integrity_checks_passed": true,
+  "contributions": [
+    {
+      "model": "Kimi",
+      "shared_by": "徐在菁",
+      "source_record": "群聊的聊天记录",
+      "record_time_as_displayed": "2026-10-24 06:27",
+      "downloaded_attachments": 5,
+      "extracted_files": 0
+    },
+    {
+      "model": "DeepSeek",
+      "shared_by": "仄言（群内转发记录中的发送者）",
+      "source_record": "仄言的聊天记录",
+      "record_time_as_displayed": "2026-10-27 00:55",
+      "downloaded_attachments": 5,
+      "extracted_files": 0
+    },
+    {
+      "model": "Doubao",
+      "shared_by": "符雅婷",
+      "source_record": "群内直接分享的 ZIP",
+      "downloaded_attachments": 1,
+      "extracted_files": 10
+    },
+    {
+      "model": "Qwen",
+      "shared_by": "符雅婷",
+      "source_record": "群内直接分享的 ZIP",
+      "identity_note": "分享包名标为千问；包内说明文件名为预测说明_Qoder.docx，保留原样，暂不将两种名称视为已核实的同一模型身份。",
+      "downloaded_attachments": 1,
+      "extracted_files": 11
+    },
+    {
+      "model": "Codex",
+      "shared_by": "用户已上传的GitHub仓库",
+      "source_record": "https://github.com/ai-driven-time-series-forecasting/myopia-forecast-2050",
+      "source_kind": "verified_github_snapshot",
+      "snapshot_files": 28,
+      "commit": "e844989b5821091dc6923166fc8bb30eeb8cb62d"
+    }
+  ],
+  "files": [
+    {
+      "path": "DeepSeek/forecast_myopia.py",
+      "bytes": 15148,
+      "sha256": "4b6b7f703c60e14aea81ba78b5c4fb3845862b2324400a3adb4a990d0501ed19",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "DeepSeek/metrics.csv",
+      "bytes": 561,
+      "sha256": "82f5de0b06dc58eaeea4568bb1994c4596aa1589906e8843c5b13b9e9743140a",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "metric",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "mean"
+      ],
+      "rows": 5
+    },
+    {
+      "path": "DeepSeek/predictions_future.csv",
+      "bytes": 785366,
+      "sha256": "3caf6e5db2710efc6161428685831213d60be012207aa80e540fba047066c593",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "year",
+        "predicted"
+      ],
+      "rows": 13300
+    },
+    {
+      "path": "DeepSeek/province_forecast_DeepSeek.png",
+      "bytes": 1555007,
+      "sha256": "d46471e583ec5e223954c9bf76bb912882bebbc24bcdf4f8255bbeee8923e258",
+      "check": "image_integrity_passed",
+      "dimensions": [
+        4172,
+        2666
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "DeepSeek/预测说明_Deepseek.docx",
+      "bytes": 44134,
+      "sha256": "dd38e53d4b4045143ac70c0bea1e5c35c0f7e349b4ac4de8e4b73a5ad10c6521",
+      "check": "docx_crc_and_xml_passed"
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/forecast.py",
+      "bytes": 19971,
+      "sha256": "ff73f39afa5e41d0da56abb3c7ef7ce54e533188aaabe120d0e2cec725610a3b",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/make_doc.py",
+      "bytes": 4801,
+      "sha256": "1a1f98e368ca2d577b50fcb9c316e89ca811eedb91f1304a51d729b530e81cc3",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/metrics.csv",
+      "bytes": 758,
+      "sha256": "4a983c04073886942ece363131330267fe5823bbfc87ad0f6ba487773e5d8bcf",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "fold",
+        "test_year",
+        "n_test",
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE(%)",
+        "R2"
+      ],
+      "rows": 12
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/model_comparison.csv",
+      "bytes": 540,
+      "sha256": "404f43eb5dc1fb7e175223569bcf412e37eb6528e46b25ec94f90643e81efb08",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "model",
+        "cv_macro_MSE",
+        "cv_macro_RMSE",
+        "cv_macro_MAE",
+        "cv_macro_MAPE(%)",
+        "cv_macro_R2",
+        "pooled_MSE",
+        "pooled_RMSE",
+        "pooled_MAE",
+        "pooled_MAPE(%)",
+        "pooled_R2"
+      ],
+      "rows": 4
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/plot.py",
+      "bytes": 4291,
+      "sha256": "0ed2ea17e91dbb17b54d3d4b9174f3ca17e18504808ac28e31290f08a18e3426",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/predictions_future.csv",
+      "bytes": 813516,
+      "sha256": "7ca61913987487834d42db47b4c32b4319041627350092f060f19d146f50d14c",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "year",
+        "predicted"
+      ],
+      "rows": 13300
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_future.csv",
+      "bytes": 20015,
+      "sha256": "5c4a344655f13baf443085c51cadc29cc10fc237e32cc60a86ca2a63ab7f6ea2",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "year",
+        "cell"
+      ],
+      "rows": 868
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_history.csv",
+      "bytes": 6046,
+      "sha256": "c43fc204521a1d32b61ee874ae08aafcad4e3679204e6bc1bbae16d806fbadb4",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "year",
+        "cell"
+      ],
+      "rows": 260
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_myopia_forecast.png",
+      "bytes": 1404914,
+      "sha256": "55eab4ff90d2e6930eccd4d002de31354e0473d30cd9b7998be9756ee1b7d5ee",
+      "check": "image_integrity_passed",
+      "dimensions": [
+        4767,
+        2666
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "Doubao/extracted/近视率预测_2050_豆包/预测说明_豆包.docx",
+      "bytes": 38723,
+      "sha256": "9bc48abf61a1ce173fdbec814fb6129dc445efed116efabd5f8a1fbd29d2ac6f",
+      "check": "docx_crc_and_xml_passed"
+    },
+    {
+      "path": "Doubao/近视率预测_2050_豆包.zip",
+      "bytes": 1499568,
+      "sha256": "0a8feb4f48c9928adc68cd4f29c81a575a95bcadc323d12866351a23cc4b0ed3",
+      "check": "zip_crc_passed"
+    },
+    {
+      "path": "Kimi/forecast_2050.py",
+      "bytes": 18822,
+      "sha256": "a64f6614e80dd09fa64f23e6e6988aadd3914cc1ca8768d36cf966f6175642ce",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Kimi/metrics.csv",
+      "bytes": 1274,
+      "sha256": "00abc876aa43d1339eb5d3c31867832f92fc066a49f9d1be78431af0572d9e73",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE",
+        "R2",
+        "fold",
+        "test_years"
+      ],
+      "rows": 11
+    },
+    {
+      "path": "Kimi/predictions_future.csv",
+      "bytes": 1019827,
+      "sha256": "c808df4d84202a187c3eeafc018d98f14ea9a5a101860dfffa5775d23096da1b",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "year",
+        "sample_size",
+        "predicted"
+      ],
+      "rows": 13300
+    },
+    {
+      "path": "Kimi/province_forecast_Kimi.png",
+      "bytes": 1849423,
+      "sha256": "a72ffa2589ffd5553e6d579b317f29fbd9468d20638b1dd170144d30ec691c50",
+      "check": "image_integrity_passed",
+      "dimensions": [
+        4182,
+        2377
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "Kimi/预测说明_Kimi.docx",
+      "bytes": 28943,
+      "sha256": "e1d83cfb3dae59d17afc449ac14bee6c4324c33c9222a2950e39fd777c4f0b53",
+      "check": "docx_crc_and_xml_passed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/__pycache__/myopia_lib.cpython-313.pyc",
+      "bytes": 11706,
+      "sha256": "a142f9e6b9bd883f0fc1a4cb7c3b9fb339c6e9b39bc50a38a0d2d601f8ed9dbd",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/cv_compare.py",
+      "bytes": 608,
+      "sha256": "1ffb111894d418ef91a550f1f884a0945b2abc00b9474c07f7f27d37f9c474df",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/inspect_traj.py",
+      "bytes": 2542,
+      "sha256": "c1a2bd3eef8471cfb1e08bbc90bfbd1eaa184524491ded18317919a541c2eb0a",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/make_report.py",
+      "bytes": 2629,
+      "sha256": "1764525dc2b2a432f1cfb9f305574d3ce2d8a045696c51731d1b7defbd088cf4",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/metrics.csv",
+      "bytes": 1302,
+      "sha256": "665a118895eb864b7668a9382f0f58c8c73623528d3cb1a70d62d2baa46836ff",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "fold",
+        "test_year",
+        "n_train",
+        "n_test",
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE",
+        "R2"
+      ],
+      "rows": 11
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/myopia_lib.py",
+      "bytes": 5776,
+      "sha256": "b281661331b10e319682bf2a955366752ac928ca350ebc1ed6264da357fa5c71",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/predictions_future.csv",
+      "bytes": 946999,
+      "sha256": "efe61ecf26bd836c43260af69784274104152ab01e0d4868b6a5dd4201321dd9",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "year",
+        "predicted"
+      ],
+      "rows": 13300
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/province_myopia_projection.png",
+      "bytes": 2132837,
+      "sha256": "9b645b63954a737db5beeb9094e7aa5c3b1015be16d5daa068349f6e3f382157",
+      "check": "image_integrity_passed",
+      "dimensions": [
+        4166,
+        2368
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/run_final.py",
+      "bytes": 5786,
+      "sha256": "8bbafdc0e3463e7727aa1a3fbd80582db401799d51f211a2f87a17c89bc5ed03",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/summary.json",
+      "bytes": 1552,
+      "sha256": "f0b1839e09500c9a7324fdf963fa179848f736abff95fd2292527d2ec08ed1b3",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Qwen/extracted/近视预测_2050_千问/预测说明_Qoder.docx",
+      "bytes": 37968,
+      "sha256": "d29b4211c5849095116f94656407d07ae1ad020f2a3eda76bf8bba97bb7b0c57",
+      "check": "docx_crc_and_xml_passed"
+    },
+    {
+      "path": "Qwen/近视预测_2050_千问.zip",
+      "bytes": 2322662,
+      "sha256": "28ba639d061524dc6c72ee792d61e941e087951504839815307b2e78cfe32792",
+      "check": "zip_crc_passed"
+    },
+    {
+      "path": "Codex/.gitignore",
+      "bytes": 112,
+      "sha256": "63d46976283f6433510c30e958f2d4332d379e6e8dc0cdbc2907504f7763b0a6",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/README.md",
+      "bytes": 3965,
+      "sha256": "9b8b26caac66ee670eae906d8dbca4b3b552af74b7909720f6546a25cbcf5569",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/balanced_1995_2019_panels.csv",
+      "bytes": 14949,
+      "sha256": "affb59388415e0d61b4683e304f5edf80b6bcd82bb3dbd79e05ee11851e1d89f",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "1995",
+        "2019"
+      ],
+      "rows": 224
+    },
+    {
+      "path": "Codex/baseline_metrics.csv",
+      "bytes": 2240,
+      "sha256": "9f0412b07719778395e7c4f0605f765bf92d8af9f3a7686a9cd74afee3a882ee",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "model",
+        "fold",
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE",
+        "R2"
+      ],
+      "rows": 22
+    },
+    {
+      "path": "Codex/build_report.py",
+      "bytes": 15523,
+      "sha256": "acf052858f8f158ebf7f4677d8af7a268228b49cba29940548ef06520889e162",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/cleaned_panel_year.csv",
+      "bytes": 141876,
+      "sha256": "f8f4fe8ab51a5c87e5e6e535f65dde828839dddd0d857c2f03fa514dc6c13573",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "method_code",
+        "year",
+        "cases",
+        "sample_size",
+        "n_studies",
+        "target"
+      ],
+      "rows": 1791
+    },
+    {
+      "path": "Codex/cv_predictions.csv",
+      "bytes": 133330,
+      "sha256": "49803b92587621896987bda37348a6181fcfe6c13db0c6d417075e7b85e6a697",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "method_code",
+        "year",
+        "cases",
+        "sample_size",
+        "n_studies",
+        "target",
+        "fold",
+        "train_end",
+        "predicted"
+      ],
+      "rows": 1316
+    },
+    {
+      "path": "Codex/delivery_manifest.json",
+      "bytes": 4141,
+      "sha256": "4de2d6d88265c3102aeb4c66ce33f7d48139029e551853368bfce86ce4141486",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/input/06_myopia.zip",
+      "bytes": 220878,
+      "sha256": "ad45b716af6795952d666fc62eb51cdff1dddf9f8ee4e852280442972fe673b4",
+      "check": "zip_crc_passed"
+    },
+    {
+      "path": "Codex/long_horizon_diagnostics.csv",
+      "bytes": 777,
+      "sha256": "9b8331fd7ee633d0c2b607214d546b6cdd2b8a18ac38eb40406c553eba43e9c5",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "model",
+        "train_end",
+        "test_year",
+        "horizon_years",
+        "n_test",
+        "selected_lambda",
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE",
+        "R2"
+      ],
+      "rows": 6
+    },
+    {
+      "path": "Codex/methodology.md",
+      "bytes": 9855,
+      "sha256": "7693d1060b93d6825a6947b484a07a7b4c3365364694c3f73ca75fab9c1cadc3",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/metrics.csv",
+      "bytes": 1340,
+      "sha256": "ae0b628628a16b342fa15f760c1f2a07015b8208d24784ed5cbb9571ec861e0c",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "fold",
+        "train_start",
+        "train_end",
+        "test_start",
+        "test_end",
+        "n_train",
+        "n_test",
+        "unseen_panel_test_cells",
+        "selected_lambda",
+        "MSE",
+        "RMSE",
+        "MAE",
+        "MAPE",
+        "R2"
+      ],
+      "rows": 11
+    },
+    {
+      "path": "Codex/model_coefficients.csv",
+      "bytes": 9021,
+      "sha256": "080d068d0c26f95d09596d65d3597063dfdd24434c3f2d3d7e29b0863a9c887a",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "feature",
+        "coefficient"
+      ],
+      "rows": 201
+    },
+    {
+      "path": "Codex/model_forecast.py",
+      "bytes": 19709,
+      "sha256": "9a8d0293dde8560f7318e70194826504835f78e30d5d09d03798a16460ca8aa0",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/nested_cv_selection.json",
+      "bytes": 2749,
+      "sha256": "c7701a3721ab345340a124c9e1b266c6dd382a36818c3a1a6ff41a72944ab059",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/panel_coverage.csv",
+      "bytes": 34998,
+      "sha256": "09381079e41e971b097f539d87062735401df6574d9134d2cf60901858fabad8",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "method_code",
+        "valid_panel_years",
+        "first_year",
+        "last_year",
+        "has_valid_history"
+      ],
+      "rows": 534
+    },
+    {
+      "path": "Codex/predictions_future.csv",
+      "bytes": 1001659,
+      "sha256": "9ece8dba6099118eef88f8461656eac495d6277272558c1f351e6ba01505abe3",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "unique_id",
+        "province",
+        "grade_group",
+        "residence",
+        "year",
+        "predicted"
+      ],
+      "rows": 14952
+    },
+    {
+      "path": "Codex/province_2050_summary.csv",
+      "bytes": 2848,
+      "sha256": "84afe43fc4577719310ab3ccdc1fb71f97f5425cdb6ccd58286fb4c312a35fd4",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "province_cn",
+        "fitted_1995",
+        "fitted_2022",
+        "predicted_2050",
+        "change_1995_2022_pp",
+        "change_2022_2050_pp"
+      ],
+      "rows": 31
+    },
+    {
+      "path": "Codex/province_coverage.csv",
+      "bytes": 728,
+      "sha256": "2cffa8db772fbd8c2938c2d542d8d0923e9e86b065c8b859266b0ddd19c55202",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "first_year",
+        "last_year",
+        "panel_years"
+      ],
+      "rows": 31
+    },
+    {
+      "path": "Codex/province_forecasts_300dpi.png",
+      "bytes": 1240809,
+      "sha256": "fab89cc4c982c864587f784db9944cc52c7be024068155fc7503fd1ce5d323f9",
+      "check": "image_integrity_passed",
+      "dimensions": [
+        5700,
+        5700
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "Codex/province_observed_rates.csv",
+      "bytes": 10222,
+      "sha256": "7842b90af44a8c8a283f127dafc5e1c5f5ac03326116491c92f1ff01a8ec22de",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "year",
+        "cases",
+        "sample_size",
+        "observed"
+      ],
+      "rows": 260
+    },
+    {
+      "path": "Codex/province_standardized_trends.csv",
+      "bytes": 153741,
+      "sha256": "8476058e562ba10fba60b8f341f39ca920aa54ca096df3c0a7f6d79875496e95",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "province",
+        "year",
+        "predicted",
+        "phi090",
+        "phi100",
+        "scenario_min",
+        "scenario_max"
+      ],
+      "rows": 1736
+    },
+    {
+      "path": "Codex/requirements.txt",
+      "bytes": 74,
+      "sha256": "05f6d3ffcaf99bde8eeff131a66d7371cd902e4d2bdd5c9929d81fffedb52ca3",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/run_manifest.json",
+      "bytes": 2908,
+      "sha256": "ba460726cb7c6d2fd046460090c8699dff529e6ef82f732f1b9dc36170182766",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/verification.json",
+      "bytes": 1277,
+      "sha256": "189f06a7d24e6b9b90b18a19bbf1dfaf14a26d686520e92b8b1fb30ce3fbdb56",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/verify_outputs.py",
+      "bytes": 4486,
+      "sha256": "f27c3d14c67032fb742179eea92a3b9e4a9785a5136cfdeb14844282b4096003",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "Codex/year_coverage.csv",
+      "bytes": 310,
+      "sha256": "a488c365b34528c9f037ef284a218e3fbaa3c95e5d32fe8fca45926c0a66af35",
+      "check": "csv_readable",
+      "encoding": "utf-8-sig",
+      "columns": [
+        "year",
+        "valid_rows",
+        "provinces"
+      ],
+      "rows": 25
+    },
+    {
+      "path": "Codex/预测说明_Codex.docx",
+      "bytes": 38215,
+      "sha256": "064ef464692a6f1f7616369c1dd12780bc1df09691c7e7b7d36148e41252d9fa",
+      "check": "docx_crc_and_xml_passed"
+    },
+    {
+      "path": "requirements/01_原始预测任务要求.md",
+      "bytes": 2377,
+      "sha256": "c1578ff8890ced96fa5cf1bb1821004c72380ad69a8aaff5256166b5084a5610",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "requirements/02_群内报告整合要求_讨论稿.md",
+      "bytes": 1463,
+      "sha256": "db7b707f192ca5f856ff9ec46cec89c227e0a9e73b9df66f97c5f7d86b3a6e82",
+      "check": "nonempty_and_hashed"
+    }
+  ],
+  "archive_members": [
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/forecast.py",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/forecast.py",
+      "sha256": "ff73f39afa5e41d0da56abb3c7ef7ce54e533188aaabe120d0e2cec725610a3b"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/make_doc.py",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/make_doc.py",
+      "sha256": "1a1f98e368ca2d577b50fcb9c316e89ca811eedb91f1304a51d729b530e81cc3"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/metrics.csv",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/metrics.csv",
+      "sha256": "4a983c04073886942ece363131330267fe5823bbfc87ad0f6ba487773e5d8bcf"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/model_comparison.csv",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/model_comparison.csv",
+      "sha256": "404f43eb5dc1fb7e175223569bcf412e37eb6528e46b25ec94f90643e81efb08"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/plot.py",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/plot.py",
+      "sha256": "0ed2ea17e91dbb17b54d3d4b9174f3ca17e18504808ac28e31290f08a18e3426"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/predictions_future.csv",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/predictions_future.csv",
+      "sha256": "7ca61913987487834d42db47b4c32b4319041627350092f060f19d146f50d14c"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/province_future.csv",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_future.csv",
+      "sha256": "5c4a344655f13baf443085c51cadc29cc10fc237e32cc60a86ca2a63ab7f6ea2"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/province_history.csv",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_history.csv",
+      "sha256": "c43fc204521a1d32b61ee874ae08aafcad4e3679204e6bc1bbae16d806fbadb4"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/province_myopia_forecast.png",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/province_myopia_forecast.png",
+      "sha256": "55eab4ff90d2e6930eccd4d002de31354e0473d30cd9b7998be9756ee1b7d5ee"
+    },
+    {
+      "archive": "Doubao/近视率预测_2050_豆包.zip",
+      "member": "近视率预测_2050_豆包/预测说明_豆包.docx",
+      "path": "Doubao/extracted/近视率预测_2050_豆包/预测说明_豆包.docx",
+      "sha256": "9bc48abf61a1ce173fdbec814fb6129dc445efed116efabd5f8a1fbd29d2ac6f"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/cv_compare.py",
+      "path": "Qwen/extracted/近视预测_2050_千问/cv_compare.py",
+      "sha256": "1ffb111894d418ef91a550f1f884a0945b2abc00b9474c07f7f27d37f9c474df"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/inspect_traj.py",
+      "path": "Qwen/extracted/近视预测_2050_千问/inspect_traj.py",
+      "sha256": "c1a2bd3eef8471cfb1e08bbc90bfbd1eaa184524491ded18317919a541c2eb0a"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/make_report.py",
+      "path": "Qwen/extracted/近视预测_2050_千问/make_report.py",
+      "sha256": "1764525dc2b2a432f1cfb9f305574d3ce2d8a045696c51731d1b7defbd088cf4"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/metrics.csv",
+      "path": "Qwen/extracted/近视预测_2050_千问/metrics.csv",
+      "sha256": "665a118895eb864b7668a9382f0f58c8c73623528d3cb1a70d62d2baa46836ff"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/myopia_lib.py",
+      "path": "Qwen/extracted/近视预测_2050_千问/myopia_lib.py",
+      "sha256": "b281661331b10e319682bf2a955366752ac928ca350ebc1ed6264da357fa5c71"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/predictions_future.csv",
+      "path": "Qwen/extracted/近视预测_2050_千问/predictions_future.csv",
+      "sha256": "efe61ecf26bd836c43260af69784274104152ab01e0d4868b6a5dd4201321dd9"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/province_myopia_projection.png",
+      "path": "Qwen/extracted/近视预测_2050_千问/province_myopia_projection.png",
+      "sha256": "9b645b63954a737db5beeb9094e7aa5c3b1015be16d5daa068349f6e3f382157"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/run_final.py",
+      "path": "Qwen/extracted/近视预测_2050_千问/run_final.py",
+      "sha256": "8bbafdc0e3463e7727aa1a3fbd80582db401799d51f211a2f87a17c89bc5ed03"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/summary.json",
+      "path": "Qwen/extracted/近视预测_2050_千问/summary.json",
+      "sha256": "f0b1839e09500c9a7324fdf963fa179848f736abff95fd2292527d2ec08ed1b3"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/__pycache__/myopia_lib.cpython-313.pyc",
+      "path": "Qwen/extracted/近视预测_2050_千问/__pycache__/myopia_lib.cpython-313.pyc",
+      "sha256": "a142f9e6b9bd883f0fc1a4cb7c3b9fb339c6e9b39bc50a38a0d2d601f8ed9dbd"
+    },
+    {
+      "archive": "Qwen/近视预测_2050_千问.zip",
+      "member": "近视预测_2050_千问/预测说明_Qoder.docx",
+      "path": "Qwen/extracted/近视预测_2050_千问/预测说明_Qoder.docx",
+      "sha256": "d29b4211c5849095116f94656407d07ae1ad020f2a3eda76bf8bba97bb7b0c57"
+    }
+  ],
+  "archive_revision": 2,
+  "archive_title": "近视预测项目完整资料归档",
+  "github_source": {
+    "repository": "https://github.com/ai-driven-time-series-forecasting/myopia-forecast-2050",
+    "branch": "main",
+    "commit": "e844989b5821091dc6923166fc8bb30eeb8cb62d",
+    "tree": "bee72fd351ab6fa5ffcfd9cfad36714aff2c9142",
+    "commit_url": "https://github.com/ai-driven-time-series-forecasting/myopia-forecast-2050/commit/e844989b5821091dc6923166fc8bb30eeb8cb62d",
+    "file_count": 28,
+    "verification": "GitHub main commit and tree verified using gh api; local tree matches; copied tracked bytes match git objects.",
+    "verified_date": "2026-10-27"
+  },
+  "github_snapshot_files": 28,
+  "requirement_files": [
+    {
+      "path": "requirements/01_原始预测任务要求.md",
+      "bytes": 2377,
+      "sha256": "c1578ff8890ced96fa5cf1bb1821004c72380ad69a8aaff5256166b5084a5610",
+      "check": "nonempty_and_hashed"
+    },
+    {
+      "path": "requirements/02_群内报告整合要求_讨论稿.md",
+      "bytes": 1463,
+      "sha256": "db7b707f192ca5f856ff9ec46cec89c227e0a9e73b9df66f97c5f7d86b3a6e82",
+      "check": "nonempty_and_hashed"
+    }
+  ]
+}

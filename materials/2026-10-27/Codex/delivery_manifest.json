@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "path": "balanced_1995_2019_panels.csv",
+      "bytes": 14949,
+      "sha256": "affb59388415e0d61b4683e304f5edf80b6bcd82bb3dbd79e05ee11851e1d89f"
+    },
+    {
+      "path": "baseline_metrics.csv",
+      "bytes": 2240,
+      "sha256": "9f0412b07719778395e7c4f0605f765bf92d8af9f3a7686a9cd74afee3a882ee"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 15523,
+      "sha256": "acf052858f8f158ebf7f4677d8af7a268228b49cba29940548ef06520889e162"
+    },
+    {
+      "path": "cleaned_panel_year.csv",
+      "bytes": 141876,
+      "sha256": "f8f4fe8ab51a5c87e5e6e535f65dde828839dddd0d857c2f03fa514dc6c13573"
+    },
+    {
+      "path": "cv_predictions.csv",
+      "bytes": 133330,
+      "sha256": "49803b92587621896987bda37348a6181fcfe6c13db0c6d417075e7b85e6a697"
+    },
+    {
+      "path": "long_horizon_diagnostics.csv",
+      "bytes": 777,
+      "sha256": "9b8331fd7ee633d0c2b607214d546b6cdd2b8a18ac38eb40406c553eba43e9c5"
+    },
+    {
+      "path": "methodology.md",
+      "bytes": 9855,
+      "sha256": "7693d1060b93d6825a6947b484a07a7b4c3365364694c3f73ca75fab9c1cadc3"
+    },
+    {
+      "path": "metrics.csv",
+      "bytes": 1340,
+      "sha256": "ae0b628628a16b342fa15f760c1f2a07015b8208d24784ed5cbb9571ec861e0c"
+    },
+    {
+      "path": "model_coefficients.csv",
+      "bytes": 9021,
+      "sha256": "080d068d0c26f95d09596d65d3597063dfdd24434c3f2d3d7e29b0863a9c887a"
+    },
+    {
+      "path": "model_forecast.py",
+      "bytes": 19709,
+      "sha256": "9a8d0293dde8560f7318e70194826504835f78e30d5d09d03798a16460ca8aa0"
+    },
+    {
+      "path": "nested_cv_selection.json",
+      "bytes": 2749,
+      "sha256": "c7701a3721ab345340a124c9e1b266c6dd382a36818c3a1a6ff41a72944ab059"
+    },
+    {
+      "path": "panel_coverage.csv",
+      "bytes": 34998,
+      "sha256": "09381079e41e971b097f539d87062735401df6574d9134d2cf60901858fabad8"
+    },
+    {
+      "path": "predictions_future.csv",
+      "bytes": 1001659,
+      "sha256": "9ece8dba6099118eef88f8461656eac495d6277272558c1f351e6ba01505abe3"
+    },
+    {
+      "path": "province_2050_summary.csv",
+      "bytes": 2848,
+      "sha256": "84afe43fc4577719310ab3ccdc1fb71f97f5425cdb6ccd58286fb4c312a35fd4"
+    },
+    {
+      "path": "province_coverage.csv",
+      "bytes": 728,
+      "sha256": "2cffa8db772fbd8c2938c2d542d8d0923e9e86b065c8b859266b0ddd19c55202"
+    },
+    {
+      "path": "province_forecasts_300dpi.png",
+      "bytes": 1240809,
+      "sha256": "fab89cc4c982c864587f784db9944cc52c7be024068155fc7503fd1ce5d323f9"
+    },
+    {
+      "path": "province_observed_rates.csv",
+      "bytes": 10222,
+      "sha256": "7842b90af44a8c8a283f127dafc5e1c5f5ac03326116491c92f1ff01a8ec22de"
+    },
+    {
+      "path": "province_standardized_trends.csv",
+      "bytes": 153741,
+      "sha256": "8476058e562ba10fba60b8f341f39ca920aa54ca096df3c0a7f6d79875496e95"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 74,
+      "sha256": "05f6d3ffcaf99bde8eeff131a66d7371cd902e4d2bdd5c9929d81fffedb52ca3"
+    },
+    {
+      "path": "run_manifest.json",
+      "bytes": 2908,
+      "sha256": "ba460726cb7c6d2fd046460090c8699dff529e6ef82f732f1b9dc36170182766"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1277,
+      "sha256": "189f06a7d24e6b9b90b18a19bbf1dfaf14a26d686520e92b8b1fb30ce3fbdb56"
+    },
+    {
+      "path": "verify_outputs.py",
+      "bytes": 4486,
+      "sha256": "f27c3d14c67032fb742179eea92a3b9e4a9785a5136cfdeb14844282b4096003"
+    },
+    {
+      "path": "year_coverage.csv",
+      "bytes": 310,
+      "sha256": "a488c365b34528c9f037ef284a218e3fbaa3c95e5d32fe8fca45926c0a66af35"
+    },
+    {
+      "path": "预测说明_Codex.docx",
+      "bytes": 38215,
+      "sha256": "064ef464692a6f1f7616369c1dd12780bc1df09691c7e7b7d36148e41252d9fa"
+    },
+    {
+      "path": "input/06_myopia.zip",
+      "bytes": 220878,
+      "sha256": "ad45b716af6795952d666fc62eb51cdff1dddf9f8ee4e852280442972fe673b4"
+    }
+  ],
+  "note": "SHA-256 hashes cover all delivered files except this manifest itself."
+}

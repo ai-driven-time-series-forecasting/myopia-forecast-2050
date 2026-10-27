@@ -1,0 +1,64 @@
+﻿source,path,bytes,sha256,check,rows,columns
+DeepSeek,DeepSeek/forecast_myopia.py,15148,4b6b7f703c60e14aea81ba78b5c4fb3845862b2324400a3adb4a990d0501ed19,nonempty_and_hashed,,
+DeepSeek,DeepSeek/metrics.csv,561,82f5de0b06dc58eaeea4568bb1994c4596aa1589906e8843c5b13b9e9743140a,csv_readable,5,"[""metric"", ""1"", ""2"", ""3"", ""4"", ""5"", ""6"", ""7"", ""8"", ""9"", ""10"", ""mean""]"
+DeepSeek,DeepSeek/predictions_future.csv,785366,3caf6e5db2710efc6161428685831213d60be012207aa80e540fba047066c593,csv_readable,13300,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""year"", ""predicted""]"
+DeepSeek,DeepSeek/province_forecast_DeepSeek.png,1555007,d46471e583ec5e223954c9bf76bb912882bebbc24bcdf4f8255bbeee8923e258,image_integrity_passed,,
+DeepSeek,DeepSeek/预测说明_Deepseek.docx,44134,dd38e53d4b4045143ac70c0bea1e5c35c0f7e349b4ac4de8e4b73a5ad10c6521,docx_crc_and_xml_passed,,
+Doubao,Doubao/extracted/近视率预测_2050_豆包/forecast.py,19971,ff73f39afa5e41d0da56abb3c7ef7ce54e533188aaabe120d0e2cec725610a3b,nonempty_and_hashed,,
+Doubao,Doubao/extracted/近视率预测_2050_豆包/make_doc.py,4801,1a1f98e368ca2d577b50fcb9c316e89ca811eedb91f1304a51d729b530e81cc3,nonempty_and_hashed,,
+Doubao,Doubao/extracted/近视率预测_2050_豆包/metrics.csv,758,4a983c04073886942ece363131330267fe5823bbfc87ad0f6ba487773e5d8bcf,csv_readable,12,"[""fold"", ""test_year"", ""n_test"", ""MSE"", ""RMSE"", ""MAE"", ""MAPE(%)"", ""R2""]"
+Doubao,Doubao/extracted/近视率预测_2050_豆包/model_comparison.csv,540,404f43eb5dc1fb7e175223569bcf412e37eb6528e46b25ec94f90643e81efb08,csv_readable,4,"[""model"", ""cv_macro_MSE"", ""cv_macro_RMSE"", ""cv_macro_MAE"", ""cv_macro_MAPE(%)"", ""cv_macro_R2"", ""pooled_MSE"", ""pooled_RMSE"", ""pooled_MAE"", ""pooled_MAPE(%)"", ""pooled_R2""]"
+Doubao,Doubao/extracted/近视率预测_2050_豆包/plot.py,4291,0ed2ea17e91dbb17b54d3d4b9174f3ca17e18504808ac28e31290f08a18e3426,nonempty_and_hashed,,
+Doubao,Doubao/extracted/近视率预测_2050_豆包/predictions_future.csv,813516,7ca61913987487834d42db47b4c32b4319041627350092f060f19d146f50d14c,csv_readable,13300,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""year"", ""predicted""]"
+Doubao,Doubao/extracted/近视率预测_2050_豆包/province_future.csv,20015,5c4a344655f13baf443085c51cadc29cc10fc237e32cc60a86ca2a63ab7f6ea2,csv_readable,868,"[""province"", ""year"", ""cell""]"
+Doubao,Doubao/extracted/近视率预测_2050_豆包/province_history.csv,6046,c43fc204521a1d32b61ee874ae08aafcad4e3679204e6bc1bbae16d806fbadb4,csv_readable,260,"[""province"", ""year"", ""cell""]"
+Doubao,Doubao/extracted/近视率预测_2050_豆包/province_myopia_forecast.png,1404914,55eab4ff90d2e6930eccd4d002de31354e0473d30cd9b7998be9756ee1b7d5ee,image_integrity_passed,,
+Doubao,Doubao/extracted/近视率预测_2050_豆包/预测说明_豆包.docx,38723,9bc48abf61a1ce173fdbec814fb6129dc445efed116efabd5f8a1fbd29d2ac6f,docx_crc_and_xml_passed,,
+Doubao,Doubao/近视率预测_2050_豆包.zip,1499568,0a8feb4f48c9928adc68cd4f29c81a575a95bcadc323d12866351a23cc4b0ed3,zip_crc_passed,,
+Kimi,Kimi/forecast_2050.py,18822,a64f6614e80dd09fa64f23e6e6988aadd3914cc1ca8768d36cf966f6175642ce,nonempty_and_hashed,,
+Kimi,Kimi/metrics.csv,1274,00abc876aa43d1339eb5d3c31867832f92fc066a49f9d1be78431af0572d9e73,csv_readable,11,"[""MSE"", ""RMSE"", ""MAE"", ""MAPE"", ""R2"", ""fold"", ""test_years""]"
+Kimi,Kimi/predictions_future.csv,1019827,c808df4d84202a187c3eeafc018d98f14ea9a5a101860dfffa5775d23096da1b,csv_readable,13300,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""year"", ""sample_size"", ""predicted""]"
+Kimi,Kimi/province_forecast_Kimi.png,1849423,a72ffa2589ffd5553e6d579b317f29fbd9468d20638b1dd170144d30ec691c50,image_integrity_passed,,
+Kimi,Kimi/预测说明_Kimi.docx,28943,e1d83cfb3dae59d17afc449ac14bee6c4324c33c9222a2950e39fd777c4f0b53,docx_crc_and_xml_passed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/__pycache__/myopia_lib.cpython-313.pyc,11706,a142f9e6b9bd883f0fc1a4cb7c3b9fb339c6e9b39bc50a38a0d2d601f8ed9dbd,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/cv_compare.py,608,1ffb111894d418ef91a550f1f884a0945b2abc00b9474c07f7f27d37f9c474df,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/inspect_traj.py,2542,c1a2bd3eef8471cfb1e08bbc90bfbd1eaa184524491ded18317919a541c2eb0a,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/make_report.py,2629,1764525dc2b2a432f1cfb9f305574d3ce2d8a045696c51731d1b7defbd088cf4,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/metrics.csv,1302,665a118895eb864b7668a9382f0f58c8c73623528d3cb1a70d62d2baa46836ff,csv_readable,11,"[""fold"", ""test_year"", ""n_train"", ""n_test"", ""MSE"", ""RMSE"", ""MAE"", ""MAPE"", ""R2""]"
+Qwen,Qwen/extracted/近视预测_2050_千问/myopia_lib.py,5776,b281661331b10e319682bf2a955366752ac928ca350ebc1ed6264da357fa5c71,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/predictions_future.csv,946999,efe61ecf26bd836c43260af69784274104152ab01e0d4868b6a5dd4201321dd9,csv_readable,13300,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""year"", ""predicted""]"
+Qwen,Qwen/extracted/近视预测_2050_千问/province_myopia_projection.png,2132837,9b645b63954a737db5beeb9094e7aa5c3b1015be16d5daa068349f6e3f382157,image_integrity_passed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/run_final.py,5786,8bbafdc0e3463e7727aa1a3fbd80582db401799d51f211a2f87a17c89bc5ed03,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/summary.json,1552,f0b1839e09500c9a7324fdf963fa179848f736abff95fd2292527d2ec08ed1b3,nonempty_and_hashed,,
+Qwen,Qwen/extracted/近视预测_2050_千问/预测说明_Qoder.docx,37968,d29b4211c5849095116f94656407d07ae1ad020f2a3eda76bf8bba97bb7b0c57,docx_crc_and_xml_passed,,
+Qwen,Qwen/近视预测_2050_千问.zip,2322662,28ba639d061524dc6c72ee792d61e941e087951504839815307b2e78cfe32792,zip_crc_passed,,
+Codex,Codex/.gitignore,112,63d46976283f6433510c30e958f2d4332d379e6e8dc0cdbc2907504f7763b0a6,nonempty_and_hashed,,
+Codex,Codex/README.md,3965,9b8b26caac66ee670eae906d8dbca4b3b552af74b7909720f6546a25cbcf5569,nonempty_and_hashed,,
+Codex,Codex/balanced_1995_2019_panels.csv,14949,affb59388415e0d61b4683e304f5edf80b6bcd82bb3dbd79e05ee11851e1d89f,csv_readable,224,"[""unique_id"", ""1995"", ""2019""]"
+Codex,Codex/baseline_metrics.csv,2240,9f0412b07719778395e7c4f0605f765bf92d8af9f3a7686a9cd74afee3a882ee,csv_readable,22,"[""model"", ""fold"", ""MSE"", ""RMSE"", ""MAE"", ""MAPE"", ""R2""]"
+Codex,Codex/build_report.py,15523,acf052858f8f158ebf7f4677d8af7a268228b49cba29940548ef06520889e162,nonempty_and_hashed,,
+Codex,Codex/cleaned_panel_year.csv,141876,f8f4fe8ab51a5c87e5e6e535f65dde828839dddd0d857c2f03fa514dc6c13573,csv_readable,1791,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""method_code"", ""year"", ""cases"", ""sample_size"", ""n_studies"", ""target""]"
+Codex,Codex/cv_predictions.csv,133330,49803b92587621896987bda37348a6181fcfe6c13db0c6d417075e7b85e6a697,csv_readable,1316,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""method_code"", ""year"", ""cases"", ""sample_size"", ""n_studies"", ""target"", ""fold"", ""train_end"", ""predicted""]"
+Codex,Codex/delivery_manifest.json,4141,4de2d6d88265c3102aeb4c66ce33f7d48139029e551853368bfce86ce4141486,nonempty_and_hashed,,
+Codex,Codex/input/06_myopia.zip,220878,ad45b716af6795952d666fc62eb51cdff1dddf9f8ee4e852280442972fe673b4,zip_crc_passed,,
+Codex,Codex/long_horizon_diagnostics.csv,777,9b8331fd7ee633d0c2b607214d546b6cdd2b8a18ac38eb40406c553eba43e9c5,csv_readable,6,"[""model"", ""train_end"", ""test_year"", ""horizon_years"", ""n_test"", ""selected_lambda"", ""MSE"", ""RMSE"", ""MAE"", ""MAPE"", ""R2""]"
+Codex,Codex/methodology.md,9855,7693d1060b93d6825a6947b484a07a7b4c3365364694c3f73ca75fab9c1cadc3,nonempty_and_hashed,,
+Codex,Codex/metrics.csv,1340,ae0b628628a16b342fa15f760c1f2a07015b8208d24784ed5cbb9571ec861e0c,csv_readable,11,"[""fold"", ""train_start"", ""train_end"", ""test_start"", ""test_end"", ""n_train"", ""n_test"", ""unseen_panel_test_cells"", ""selected_lambda"", ""MSE"", ""RMSE"", ""MAE"", ""MAPE"", ""R2""]"
+Codex,Codex/model_coefficients.csv,9021,080d068d0c26f95d09596d65d3597063dfdd24434c3f2d3d7e29b0863a9c887a,csv_readable,201,"[""feature"", ""coefficient""]"
+Codex,Codex/model_forecast.py,19709,9a8d0293dde8560f7318e70194826504835f78e30d5d09d03798a16460ca8aa0,nonempty_and_hashed,,
+Codex,Codex/nested_cv_selection.json,2749,c7701a3721ab345340a124c9e1b266c6dd382a36818c3a1a6ff41a72944ab059,nonempty_and_hashed,,
+Codex,Codex/panel_coverage.csv,34998,09381079e41e971b097f539d87062735401df6574d9134d2cf60901858fabad8,csv_readable,534,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""method_code"", ""valid_panel_years"", ""first_year"", ""last_year"", ""has_valid_history""]"
+Codex,Codex/predictions_future.csv,1001659,9ece8dba6099118eef88f8461656eac495d6277272558c1f351e6ba01505abe3,csv_readable,14952,"[""unique_id"", ""province"", ""grade_group"", ""residence"", ""year"", ""predicted""]"
+Codex,Codex/province_2050_summary.csv,2848,84afe43fc4577719310ab3ccdc1fb71f97f5425cdb6ccd58286fb4c312a35fd4,csv_readable,31,"[""province"", ""province_cn"", ""fitted_1995"", ""fitted_2022"", ""predicted_2050"", ""change_1995_2022_pp"", ""change_2022_2050_pp""]"
+Codex,Codex/province_coverage.csv,728,2cffa8db772fbd8c2938c2d542d8d0923e9e86b065c8b859266b0ddd19c55202,csv_readable,31,"[""province"", ""first_year"", ""last_year"", ""panel_years""]"
+Codex,Codex/province_forecasts_300dpi.png,1240809,fab89cc4c982c864587f784db9944cc52c7be024068155fc7503fd1ce5d323f9,image_integrity_passed,,
+Codex,Codex/province_observed_rates.csv,10222,7842b90af44a8c8a283f127dafc5e1c5f5ac03326116491c92f1ff01a8ec22de,csv_readable,260,"[""province"", ""year"", ""cases"", ""sample_size"", ""observed""]"
+Codex,Codex/province_standardized_trends.csv,153741,8476058e562ba10fba60b8f341f39ca920aa54ca096df3c0a7f6d79875496e95,csv_readable,1736,"[""province"", ""year"", ""predicted"", ""phi090"", ""phi100"", ""scenario_min"", ""scenario_max""]"
+Codex,Codex/requirements.txt,74,05f6d3ffcaf99bde8eeff131a66d7371cd902e4d2bdd5c9929d81fffedb52ca3,nonempty_and_hashed,,
+Codex,Codex/run_manifest.json,2908,ba460726cb7c6d2fd046460090c8699dff529e6ef82f732f1b9dc36170182766,nonempty_and_hashed,,
+Codex,Codex/verification.json,1277,189f06a7d24e6b9b90b18a19bbf1dfaf14a26d686520e92b8b1fb30ce3fbdb56,nonempty_and_hashed,,
+Codex,Codex/verify_outputs.py,4486,f27c3d14c67032fb742179eea92a3b9e4a9785a5136cfdeb14844282b4096003,nonempty_and_hashed,,
+Codex,Codex/year_coverage.csv,310,a488c365b34528c9f037ef284a218e3fbaa3c95e5d32fe8fca45926c0a66af35,csv_readable,25,"[""year"", ""valid_rows"", ""provinces""]"
+Codex,Codex/预测说明_Codex.docx,38215,064ef464692a6f1f7616369c1dd12780bc1df09691c7e7b7d36148e41252d9fa,docx_crc_and_xml_passed,,
+requirements,requirements/01_原始预测任务要求.md,2377,c1578ff8890ced96fa5cf1bb1821004c72380ad69a8aaff5256166b5084a5610,nonempty_and_hashed,,
+requirements,requirements/02_群内报告整合要求_讨论稿.md,1463,db7b707f192ca5f856ff9ec46cec89c227e0a9e73b9df66f97c5f7d86b3a6e82,nonempty_and_hashed,,
